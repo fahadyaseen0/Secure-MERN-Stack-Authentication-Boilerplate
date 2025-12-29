@@ -9,61 +9,7 @@ This project demonstrates a basic MERN (MongoDB, Express, React, Node.js) stack 
 - **Public Routes**: Redirects authenticated users away from the login and registration pages.
 - **React Router v6**: Utilizes the latest version of React Router for navigation.
 
-## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/saurabhdhumane/Mern-Stack-Authentication.git
-   cd Mern-Stack-Authentication
-   ```
-
-2. **Install dependencies**:
-
-   - Backend (Node.js):
-     ```bash
-     cd backend
-     npm install
-     ```
-   
-   - Frontend (React):
-     ```bash
-     cd frontend
-     npm install
-     ```
-
-3. **Set up environment variables**:
-
-   Create a `.env` file in the `backend` directory with the following contents:
-
-   ```bash
-   # Server Configuration
-   PORT=5000
-
-   # Database Configuration
-   MONGO_URI=mongodb://localhost:27017/mydatabase
-
-   # JWT Configuration
-   JWT_SECRET=mysecretkey
-   JWT_EXPIRES_IN=1h
-   ```
-
-4. **Run the application**:
-
-   - Backend:
-     ```bash
-     cd backend
-     npm start
-     ```
-
-   - Frontend:
-     ```bash
-     cd frontend
-     npm start
-     ```
-
-5. **Access the application**:
-
-   Open your browser and navigate to `http://localhost:3000`.
 
 ## Project Structure
 
@@ -99,14 +45,5 @@ This project demonstrates a basic MERN (MongoDB, Express, React, Node.js) stack 
 - **Backend**: Node.js, Express.js, MongoDB, JWT
 - **Libraries**: `axios`, `jwt-decode`, `dotenv`
 
-## Contributing
 
-Feel free to open issues or submit pull requests if you find any bugs or want to add new features!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Make sure to replace `your-username/your-repo-name` with the actual GitHub repository URL where you’ll be pushing your code. If you have any specific sections or additional details you’d like to include, feel free to modify this `README.md` file accordingly!
